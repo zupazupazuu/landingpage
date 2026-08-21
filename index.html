@@ -6,21 +6,21 @@
 <title>Zupazupazuu — Crystal Jewelry</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --pearl: #f6f1ec;
     --pearl-2: #efe6dd;
-    --ink: #2a2130;
-    --ink-soft: #5b4f63;
-    --rose: #e3b8be;
-    --rose-deep: #c98d96;
-    --amethyst: #9b7fa6;
-    --amethyst-deep: #6f5580;
-    --gold: #bfa06a;
+    --ink: #111111;
+    --ink-soft: #4a4a4a;
+    --rose: #1a1a1a;
+    --rose-deep: #000000;
+    --amethyst: #1a1a1a;
+    --amethyst-deep: #000000;
+    --gold: #000000;
     --white: #fffdfb;
-    --line: rgba(42,33,48,0.12);
-    --shadow: 0 20px 60px -20px rgba(111,85,128,0.35);
+    --line: rgba(0,0,0,0.14);
+    --shadow: 0 20px 60px -20px rgba(0,0,0,0.3);
   }
 
   *{ box-sizing:border-box; margin:0; padding:0; }
@@ -28,7 +28,7 @@
   html{ scroll-behavior:smooth; }
 
   body{
-    font-family:'Manrope', sans-serif;
+    font-family:'Jost', sans-serif;
     background:
       radial-gradient(120% 80% at 15% -10%, rgba(226,206,190,0.4), transparent 60%),
       radial-gradient(120% 80% at 90% 0%, rgba(214,190,170,0.3), transparent 55%),
@@ -92,8 +92,8 @@
   .eyebrow::before,.eyebrow::after{ content:''; }
 
   h1{
-    font-family:'Cormorant Garamond', serif;
-    font-weight:500;
+    font-family:'Playfair Display', serif;
+    font-weight:600;
     font-size:clamp(44px, 11vw, 64px);
     letter-spacing:0.01em;
     line-height:1;
@@ -126,7 +126,7 @@
     background:linear-gradient(90deg, transparent, var(--line), transparent);
   }
   .shop-head h2{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Playfair Display', serif;
     font-weight:500;
     font-style:italic;
     font-size:24px;
@@ -181,7 +181,7 @@
 
   .card svg{ width:38%; height:38%; }
 
-  .card.cs{ color:#4a9a63; }
+  .card.cs{ color:var(--ink); }
 
   .flag{
     position:absolute;
